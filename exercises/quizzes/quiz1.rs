@@ -13,7 +13,15 @@
 // fn calculate_price_of_apples(???) -> ??? { ??? }
 
 fn main() {
-    // You can optionally experiment here.
+    
+}
+
+fn calculate_price_of_apples(amt:i32)->i32{
+    if amt <= 40 {
+        amt*2
+    }else{
+        amt
+    }
 }
 
 // Don't change the tests!
